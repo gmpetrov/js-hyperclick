@@ -1,7 +1,7 @@
 {
   "name": "js-hyperclick-config-alternative",
   "main": "./lib/js-hyperclick",
-  "version": "1.12.2",
+  "version": "2.0.0",
   "description": "A hyperclick provider that lets you jump to where variables are defined.",
   "keywords": [],
   "repository": "https://github.com/gmpetrov/js-hyperclick",
@@ -9,7 +9,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "moduleRoots": ["lib/core"],
+  "moduleRoots": [
+    "lib/core"
+  ],
   "scripts": {
     "precommit": "lint-staged && npm test",
     "test": "atom --test spec/",
