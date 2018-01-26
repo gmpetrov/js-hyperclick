@@ -1,7 +1,7 @@
 {
   "name": "js-hyperclick-config-alternative",
   "main": "./lib/js-hyperclick",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A hyperclick provider that lets you jump to where variables are defined.",
   "keywords": [],
   "repository": "https://github.com/gmpetrov/js-hyperclick",
