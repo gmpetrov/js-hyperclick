@@ -9,9 +9,6 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "moduleRoots": [
-    "lib/core"
-  ],
   "scripts": {
     "precommit": "lint-staged && npm test",
     "test": "atom --test spec/",

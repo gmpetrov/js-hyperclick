@@ -38,12 +38,14 @@ and
 > -[@dan_abramov](https://twitter.com/dan_abramov/status/771741318129324032)
 
 If you're still set on custom module directories, there is a way to configure
-it. If you keep your common modules in `src/lib` you can add this to your
-`package.json`:
-
+it. If you keep your common modules in `src/lib` you can create a file named .js-hyperclick.json and add
 ```json
-"moduleRoots": [ "src/lib" ],
+{
+    "moduleRoots": [ "src/lib" ]
+}
 ```
+
+You can also add the moduleRoots to your package.json.
 
 With that in place `require('foo')` or `import 'foo'` with both locate your `src/lib/foo` module.
 
